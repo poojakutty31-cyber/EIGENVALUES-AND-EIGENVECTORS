@@ -29,9 +29,9 @@ Store the results in two variables: one for eigenvalues and one for eigenvectors
 
 ## Program:
 ```
-Program to find the eigen values and eigen vectors.
-Developed by: Sivasakthi S
-RegisterNumber: 212225040418
+#Program to find the eigen values and eigen vectors.
+#Developed by: Sivasakthi S
+#RegisterNumber: 212225040418
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
