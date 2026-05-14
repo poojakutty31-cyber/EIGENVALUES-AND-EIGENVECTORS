@@ -28,25 +28,17 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 Store the results in two variables: one for eigenvalues and one for eigenvectors.
 
 ## Program:
-
-#Program to find the eigen values and eigen vectors.
-
-#Developed by: Sivasakthi S
-
-#RegisterNumber: 212225040418
-
+```
+Program to find the eigen values and eigen vectors.
+Developed by: Sivasakthi S
+RegisterNumber: 212225040418
 import os
-
 os.environ["OPENBLAS_NUM_THREADS"]="1"
-
 import numpy as np
-
 a = np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-
 values,vectors = np.linalg.eig(a)
-
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
-
+```
 ## Output:
 
 <img width="858" height="159" alt="image" src="https://github.com/user-attachments/assets/7cedd49a-e3b3-422d-a224-d6286eb5c0aa" />
